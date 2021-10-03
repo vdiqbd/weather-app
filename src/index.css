@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: "Product Sans", "sans-serif";
+}
+
+#root {
+  width: 100%;
+  height: auto;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  background: hsl(230, 17%, 14%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header {
+  min-width: 877.5px;
+  height: 80px;
+  background: hsl(228, 28%, 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  border-radius: 0 0 15px 15px;
+}
+
+button {
+  width: 10%;
+  height: 35px;
+  margin: 0 0 0 10px;
+  background: hsl(230, 17%, 14%);
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  width: 50%;
+  height: 40px;
+  outline: none;
+  padding: 0 0 0 10px;
+  font-size: 18px;
+  font-family: "Product Sans", "sans-serif";
+  background: hsl(230, 17%, 14%);
+  color: white;
+  border: none;
+  border-radius: 0 0 5px 5px;
+}
+
+.banner {
+  min-width: 780px;
+  height: 300px;
+  background: hsl(228, 28%, 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  border-top: 5px solid hsl(228, 34%, 66%);
+}
+
+.banner > p {
+  margin: 0;
+  font-size: 35px;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.img {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  left: 67px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 0 20px 0 0;
+}
+
+.img p {
+  margin: 0;
+  font-size: 40px;
+}
+
+.temp-con {
+  width: auto;
+  height: auto;
+  /* background: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  position: absolute;
+  right: 70px;
+  top: 0px;
+}
+
+#dark,
+#light {
+  margin: 0;
+}
+
+#dark {
+  font-size: 100px;
+}
+
+#light {
+  color: hsl(0, 0%, 80%);
+  font-size: 25px;
+}
+
+.banner-con {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 180px;
+}
+
+.date-time-con {
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 70px;
+  bottom: 30px;
+  font-size: 50px;
+}
+
+.place {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  bottom: 30px;
+  right: 228px;
+  font-size: 50px;
+}
